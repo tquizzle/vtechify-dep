@@ -1,0 +1,12 @@
+# Site settings
+title: vTechify.com
+email: your-email@domain.com
+description: "vTechify - virtualization technology for the masses"
+baseurl: "http://vTechify.com"
+url: "http://vTechify.com"
+twitter_username: TQuizzle
+github_username:  TQuizzle
+
+# Build settings
+markdown: kramdown
+permalink: pretty

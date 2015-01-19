@@ -1,0 +1,59 @@
+# Site wide configuration
+
+title:            vTechify
+locale:           en_US
+url:              //vtechify.com
+
+
+# Jekyll configuration
+
+permalink:   /:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Travis Quinnelly
+  avatar: https://secure.gravatar.com/avatar/9ff9176cb3c383c60d7d91bf0dce141e?s=128&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D128&r=PG
+  bio: "vTechify is my home to talk about all things server or virtualization. Here I share things learned in lab and production environments both for my documentation and reference and for others to benefit as well."
+  email: 
+  disqus-shortname: vtechifycom
+  twitter: TQuizzle
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: tquizzle
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: tquinnelly
+  instagram: tquinnelly
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

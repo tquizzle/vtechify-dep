@@ -14,3 +14,7 @@ Sometimes you need to quickly remove CDROMs from VMs to not violate vMotion or j
 So, if you need a quick PowerCLI one-liner to do that for you, look no further.
 
 <script src="https://gist.github.com/tquizzle/f92d3081118d07049c0e.js"></script>
+
+{% highlight powershell %}
+Get-VM <vmNames> | Get-CDDrive | Set-CDDrive -NoMedia -Confirm:$false
+{% endhighlight %}

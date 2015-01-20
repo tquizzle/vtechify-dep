@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Unmount pesky CD-ROMs from VMs
-excerpt: 
-modified: 2014-07-29
+excerpt: "Get rid of those CD-ROMs that seem to stick around."
+modified: 2014-07-30
 tags: [CDROM, PowerCLI, Unmount]
 comments: true
 image:

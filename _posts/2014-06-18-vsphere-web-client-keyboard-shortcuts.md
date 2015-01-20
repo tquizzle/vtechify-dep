@@ -1,7 +1,7 @@
 ---
 layout: post
 title: vSphere Web Client Keyboard Shortcuts
-excerpt: 
+excerpt: "Sometimes you need some quick keyboard shortcuts to navigate around."
 modified: 2014-06-18
 tags: [vSphere, Web, Client, Shortcuts]
 comments: true

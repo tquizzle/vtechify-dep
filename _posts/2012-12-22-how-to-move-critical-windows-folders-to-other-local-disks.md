@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How To Move Critical Windows Folders to Other Local Disks
-excerpt: "If you’ve ever needed or tried to move the C:\Users directory or other default Windows® directories to another place other than the default one, you know it can be quite difficult."
+title: "How To Move Critical Windows Folders to Other Local Disks"
+excerpt: "If you’ve ever needed or tried to move the C:\Users directory or other default Windows directories to another place other than the default one, you know it can be quite difficult."
 modified: 2011-05-31
 tags: [folders, geeky, tutorial, hard links, symlinks, system, Windows 7, windows administration]
 comments: true
@@ -23,14 +23,14 @@ comments: true
 
 If you&#8217;ve ever needed or tried to move the C:&#92;Users directory or other default Windows® directories to another place other than the default one, you know it can be quite difficult.
 
-I&#8217;ve tried to Google this, and talk to others about doing it. What seemed to be such a simple request also seemed to be difficult to pull off. That&#8217;s when a brilliant (nearly the smartest man I know) told me about<a rel="nofollow" target="_blank" title="Hard Links and Junctions" href="http://msdn.microsoft.com/en-us/library/windows/desktop/aa365006(v=vs.85).aspx"> hard links & junction links</a> in windows. Think of them like symbolic links in Mac or *nix systems.
+I&#8217;ve tried to Google this, and talk to others about doing it. What seemed to be such a simple request also seemed to be difficult to pull off. That&#8217;s when a brilliant (nearly the smartest man I know) told me about [Hard Links and Junctions](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365006(v=vs.85).aspx) hard links & junction links</a> in windows. Think of them like symbolic links in Mac or *nix systems.
 
-*   C:&#92;dira linked to C:&#92;dirb
-*   D:&#92;dir1&#92; to C:&#92;dir2&#92;dir3
+* C:&#92;dira linked to C:&#92;dirb
+* D:&#92;dir1&#92; to C:&#92;dir2&#92;dir3
 
-The great thing about using hard links in Windows is that it acts as if the data is still there. In the example above, when you&#8217;re browsing C:&#92;dira the system will act as if you&#8217;re really in that directory when in all reality you&#8217;re browsing C:&#92;dirb. Even the address bar will show that.
+The great thing about using hard links in Windows is that it acts as if the data is still there. In the example above, when you're browsing C:&#92;dira the system will act as if you&#8217;re really in that directory when in all reality you're browsing C:&#92;dirb. Even the address bar will show that.
 
-Thanks to an almost 3-year-old post on&nbsp;<a rel="nofollow" target="_blank" title="Move the Users Directory in Windows 7" href="http://lifehacker.com/5467758/move-the-users-directory-in-windows-7">Lifehacker</a>, I accomplished what I thought was only possible with tons of registry tweaking and tons of time spent in Safe Mode with a potentially unstable system afterward.  
+Thanks to an almost 3-year-old post on [Move the Users Directory in Windows 7](http://lifehacker.com/5467758/move-the-users-directory-in-windows-7), I accomplished what I thought was only possible with tons of registry tweaking and tons of time spent in Safe Mode with a potentially unstable system afterward.  
 
 ### Real Reason Why
 
@@ -65,15 +65,15 @@ Now here&#8217;s where we really get our hands dirty. Well, not really, but just
 
 Find out which drives are what.
 
-Install Drive: DVD  
-OS Drive: Source  
-Secondary Drive: Destination
+* Install Drive: DVD  
+* OS Drive: Source  
+* Secondary Drive: Destination
 
 On my computer, it was:
 
-X: DVD Install Drive  
-E: Actual OS SSD Drive  
-D: Secondary Hard Drive
+* X: DVD Install Drive  
+* E: Actual OS SSD Drive  
+* D: Secondary Hard Drive
 
 #### Copy Data & Create Hard Links
 
@@ -107,7 +107,7 @@ Now you&#8217;ve just moved all three of these folders from the Windows system d
 
 Now comes the proof. Change directories to E:&#92;. Type dir and see what you see. You should see &#8221; Users [D:&#92;Users]&#8221;
 
-Now restart your computer and you&#8217;re done.
+Now restart your computer and you're done.
 
 Congratulations!
 

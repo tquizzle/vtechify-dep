@@ -4,10 +4,6 @@ title: "Set VMTools Upgrade Policy to Manual"
 excerpt: "Small script to set the VMTools policy to manual instead of automatic on power cycle."
 tags: [policy, PowerCLI, Upgrade, VMTools]
 comments: true
-image:
-  feature: PowerCLI.png
-  credit: PowerCLI
-  creditlink: http://blogs.vmware.com/PowerCLI/
 
 ---
 

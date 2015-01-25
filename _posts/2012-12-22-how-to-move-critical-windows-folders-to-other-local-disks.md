@@ -22,7 +22,7 @@ comments: true
 
 If you&#8217;ve ever needed or tried to move the C:&#92;Users directory or other default Windows® directories to another place other than the default one, you know it can be quite difficult.
 
-I&#8217;ve tried to Google this, and talk to others about doing it. What seemed to be such a simple request also seemed to be difficult to pull off. That&#8217;s when a brilliant (nearly the smartest man I know) told me about [Hard Links and Junctions](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365006(v=vs.85).aspx) hard links & junction links</a> in windows. Think of them like symbolic links in Mac or *nix systems.
+I&#8217;ve tried to Google this, and talk to others about doing it. What seemed to be such a simple request also seemed to be difficult to pull off. That&#8217;s when a brilliant (nearly the smartest man I know) told me about [Hard Links and Junctions](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365006(v=vs.85).aspx) hard links & junction links in windows. Think of them like symbolic links in Mac or *nix systems.
 
 * C:&#92;dira linked to C:&#92;dirb
 * D:&#92;dir1&#92; to C:&#92;dir2&#92;dir3

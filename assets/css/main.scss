@@ -26,3 +26,14 @@ sitemap: false
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";
+
+.socialcount {
+	font-size:16px;
+	font-size:1rem;
+}
+.socialcount li {
+	padding:0 10px;
+}
+.socialcount p>a,.socialcount li>a {
+	border-bottom-width:0;
+}

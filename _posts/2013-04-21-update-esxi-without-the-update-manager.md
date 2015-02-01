@@ -44,7 +44,7 @@ VIBs Skipped: VMware_bootbank_ata-pata-amd_0.3.10-3vmw.500.0.0.469512, VMware_bo
 
 Now, reboot your host and you should notice that the system was patched.
 
-Multiple Patch Info
+### Multiple Patch Info
 
 If you need to update multiple patches at the same time, you may do so but only in succession starting with the oldest first.
 

@@ -44,3 +44,39 @@ sitemap: false
 .socialcount a:hover {
 	border-bottom-width:1;
 }
+.btn-social:visited, .btn-social:active {
+  color: #313130;
+}
+.btn-inverse:visited, .btn-social:visited, .btn-inverse:active, .btn-social:active {
+  color: #313130;
+}
+.inline-btn a, .inline-btn btn {
+  display: inline-block;
+  margin-right: 0.809em;
+}
+.btn-social {
+  color: #313130 !important;
+  border: 1px solid #ddd !important;
+}
+.btn-inverse, .btn-social {
+  background-color: #fff;
+  color: #313130;
+}
+.btn, form button, input[type="submit"], .btn-inverse, .btn-social, .btn-info, .btn-warning, .btn-success, .btn-danger {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1.71429;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+  font-family: "Helvetica Neue","Segoe UI",Arial,sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border: 0 !important;
+  border-radius: 30px;
+  -webkit-transition: background 0.2s,border 0.2s;
+  -moz-transition: background 0.2s,border 0.2s;
+  transition: background 0.2s,border 0.2s;
+}

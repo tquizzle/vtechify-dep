@@ -30,10 +30,17 @@ sitemap: false
 .socialcount {
 	font-size:16px;
 	font-size:1rem;
+	margin:0 auto;
+	text-align:center;
 }
 .socialcount li {
 	padding:0 10px;
+	display:inline;
 }
 .socialcount p>a,.socialcount li>a {
 	border-bottom-width:0;
+	text-decoration:none;
+}
+.socialcount a:hover {
+	border-bottom-width:1;
 }

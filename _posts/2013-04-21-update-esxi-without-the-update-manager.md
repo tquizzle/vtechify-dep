@@ -6,7 +6,7 @@ tags: [ESXi, Host, Patch, Upgrade, VIB, VUM]
 comments: true
 ---
 
-![vSphere 5]{http://i2.wp.com/vsphere-land.com/wp-content/uploads/vsphere5-300x160.png}
+![vSphere 5][1]
 {: .image-pull-right}
 
 I’ve needed to do this quite a few times. Especially in my home lab and with a couple of clients whom only have a single ESXi server and no vCenter server.
@@ -15,11 +15,11 @@ I felt like I should jot it down and use that as a reference later. What is outl
 
 ### Get Started
 
-* Download patches necessary from the [VMware Patch Portal](http://www.vmware.com/patchmgr/findPatch.portal)
+* Download patches necessary from the [VMware Patch Portal](http://www.vmware.com/patchmgr/findPatch.portal) for your version of ESXi
 * Enable SSH for your ESXi Host
 * Put host into Maintenance Mode
-* Transfer the file(s) over to a Mounted datastore using [SCP](http://winscp.net/eng/download.php)
-* Once you’ve uploaded the file(s) this is now considered your Local Depot Repository
+* Transfer the file(s) over to a Mounted datastore. I used [SCP](http://winscp.net/eng/download.php)
+* Once you've uploaded the file(s) this is now considered your Local Depot Repository
 
 ### Patch
 
@@ -57,3 +57,5 @@ On a recent install I found that I needed to install 3 patches.
 That’s the order I patched them in and then rebooted a single time and now my host at my lab is fully up-to-date.
 
 Thanks to [Chris Colotti’s post](http://www.chriscolotti.us/vmware/vsphere/how-to-patch-vsphere-5-esxi-without-update-manager/) for making perfect sense of all of this.
+
+[1]: http://i2.wp.com/vsphere-land.com/wp-content/uploads/vsphere5-300x160.png

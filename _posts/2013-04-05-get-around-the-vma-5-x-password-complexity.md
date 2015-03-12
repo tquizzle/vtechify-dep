@@ -4,6 +4,8 @@ title: "Get Around the vMA 5.x Password Complexity"
 excerpt: "Where there's a will, there's a way."
 tags: [Password Complexity, vMA, Appliances]
 comments: true
+image:
+  feature: vSphere6.0.jpg
 ---
 
 <figure>

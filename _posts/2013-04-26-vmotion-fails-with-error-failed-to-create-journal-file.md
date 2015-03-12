@@ -4,6 +4,8 @@ title: "vMotion fails with error 'Failed to create journal file...'"
 excerpt: "How to fix the nuance of Failed to create journal file..."
 tags: [file system, SNMP, trap]
 comments: true
+image:
+  feature: vSphere6.0.jpg
 ---
 
 

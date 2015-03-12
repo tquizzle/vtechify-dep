@@ -4,6 +4,8 @@ title: "Update ESXi without the Update Manager"
 excerpt: "No vCenter with Update Manager? No Problem."
 tags: [ESXi, Host, Patch, Upgrade, VIB, VUM]
 comments: true
+image:
+  feature: vSphere6.0.jpg
 ---
 
 ![vSphere 5][1]

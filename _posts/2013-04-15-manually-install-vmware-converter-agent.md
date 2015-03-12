@@ -4,6 +4,8 @@ title: "Manually Install VMware Converter Agent"
 excerpt: "Pre-Install the VMware Converter Agent to avoid problems during P to V conversions."
 tags: [Agent, converter, vCenter]
 comments: true
+image:
+  feature: vSphere6.0.jpg
 ---
 
 <figure>

@@ -4,6 +4,8 @@ title: "Check Free Space in vSphere"
 excerpt: "Checking for Free Space is easy"
 tags: [free space, storage, vSphere, ESXi]
 comments: true
+image:
+  feature: vSphere6.0.jpg
 ---
 
 I had an issue recently where I needed to check the file space on an ESXi host. Luckily [krypted.com](http://krypted.com/vmware/checking-free-space-in-esx/) landed in my Google search with just what I needed.

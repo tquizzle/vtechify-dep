@@ -6,9 +6,7 @@ modified: 2014-06-18
 tags: [vSphere, Web, Client, Shortcuts]
 comments: true
 image:
-  feature: 
-  credit: 
-  creditlink: 
+  feature: vSphere6.0.jpg
 ---
 
 The guy over at vSpace outlined some very handy keyboard shortcuts for use while in the vSphere Web Client.

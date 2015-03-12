@@ -4,6 +4,8 @@ title: "Rescan for Storage"
 excerpt: "I always forget the syntax for how to rescan a host for new storage."
 tags: [PowerCLI, rescan, storage, HBA]
 comments: true
+image:
+  feature: vSphere6.0.jpg
 ---
 
 

@@ -4,7 +4,8 @@ title: "Reset the root or admin user in vCOps"
 excerpt: "When deploying, you have to change the root and admin passwords. What happens if you can't remember what you set it as? Here I explain how you can reset."
 tags: [Unsupported, vCOps]
 comments: true
-
+image:
+  feature: vSphere6.0.jpg
 ---
 
 This also works in vCenter Infrastructure Navigator

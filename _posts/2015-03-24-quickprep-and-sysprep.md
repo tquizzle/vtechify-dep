@@ -12,6 +12,7 @@ image:
 [Jason Boche](http://www.boche.net/blog/) has a great post on [QuickPrep and Sysprep](http://www.boche.net/blog/index.php/2013/05/02/quickprep-and-sysprep/) and their differences.
 
 He references [VMware KB 2003797](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2003797) which states: 
+
 > QuickPrep is a VMware system tool executed by View Composer during a linked-clone desktop deployment. QuickPrep personalizes each desktop created from the Master Image. Microsoft Sysprep is a tool to deploy the configured operating system installation from a base image. The desktop can then be customized based on an answer script. Sysprep can modify a larger number of configurable parameters than QuickPrep.
 
 The below table outlines the key differences between QuickPrep and Sysprep:

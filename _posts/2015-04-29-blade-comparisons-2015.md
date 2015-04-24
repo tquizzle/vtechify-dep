@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Blade Comparisons for 2015"
+excerpt: "Take a look at the comparisons of Blade Technologies from different vendors."
+tags: [blade, server]
+link: http://bladesmadesimple.com/2015/02/blade-server-comparisons-march-2015/  
+share: true
+---
+
+I'm not a fan of Blade technology. It's not that it's bad or better than rack-and-stack, but my experience has been less than stellar. Perhaps that will change in the future, we'll just have to see.
+
+Nonetheless, Kevin Houston has [a post with a great PDF](http://bladesmadesimple.com/2015/02/blade-server-comparisons-march-2015/  ) comparing the different offerings from Cisco, Dell, HP and IBM.

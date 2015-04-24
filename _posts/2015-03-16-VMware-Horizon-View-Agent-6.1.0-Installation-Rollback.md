@@ -11,6 +11,6 @@ image:
 
 [Jason Boche](http://boche.net/blog) describes something he encountered during a 6.0 upgrade.
 
-![test](https://ci6.googleusercontent.com/proxy/4y2KUNk7rHcMENe6OT1J3GSXmIz0e4g0FKPEqa27vBL0yd_vr8eVho0qoA=s0-d-e1-ft)
+![](https://ci6.googleusercontent.com/proxy/4y2KUNk7rHcMENe6OT1J3GSXmIz0e4g0FKPEqa27vBL0yd_vr8eVho0qoA=s0-d-e1-ft)
 
 Check out the workaround in [his article](http://www.boche.net/blog/index.php/2015/03/16/vmware-horizon-view-agent-6-1-0-installation-rollback/).

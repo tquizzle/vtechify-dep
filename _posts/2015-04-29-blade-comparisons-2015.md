@@ -6,6 +6,7 @@ tags: [blade, server]
 link: http://bladesmadesimple.com/2015/02/blade-server-comparisons-march-2015/  
 share: true
 ---
+![Blades!](http://www.www8-hp.com/us/en/images/blade_tcm245_1722321_tcm245_1721906_tcm245-1722321.jpg)
 
 I'm not a fan of Blade technology. It's not that it's bad or better than rack-and-stack, but my experience has been less than stellar. Perhaps that will change in the future, we'll just have to see.
 

@@ -13,7 +13,7 @@ Thanks to Google, I found exactly what I needed to change. A bit cumbersome at f
 
 
 ![PuTTY Settings](https://dl.dropboxusercontent.com/u/6108/Screenshots/PuttyColorFix/Image%20001.png)
-{: .image-pull-left}
+{: .image-pull-right}
 
 * Default Foreground: 255/255/255
 * Default Background: 51/51/51
@@ -27,7 +27,7 @@ Thanks to Google, I found exactly what I needed to change. A bit cumbersome at f
 * ANSI Cyan Bold: 255/215/0
 * ANSI White: 245/222/179
 
-<br clear=all />
+--
 
 ![1](https://dl.dropboxusercontent.com/u/6108/Screenshots/PuttyColorFix/Image%20002.png)
 ![2](https://dl.dropboxusercontent.com/u/6108/Screenshots/PuttyColorFix/Image%20003.png)

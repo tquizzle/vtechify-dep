@@ -13,7 +13,7 @@ Thanks to Google, I found exactly what I needed to change. A bit cumbersome at f
 
 
 ![PuTTY Settings](https://dl.dropboxusercontent.com/u/6108/Screenshots/PuttyColorFix/Image%20001.png)
-{: .image-pull-right}
+{: .image-pull-left}
 
 * Default Foreground: 255/255/255
 * Default Background: 51/51/51
@@ -26,6 +26,8 @@ Thanks to Google, I found exactly what I needed to change. A bit cumbersome at f
 * ANSI Cyan: 255/160/160
 * ANSI Cyan Bold: 255/215/0
 * ANSI White: 245/222/179
+
+<br clear=all />
 
 ![1](https://dl.dropboxusercontent.com/u/6108/Screenshots/PuttyColorFix/Image%20002.png)
 ![2](https://dl.dropboxusercontent.com/u/6108/Screenshots/PuttyColorFix/Image%20003.png)
@@ -44,5 +46,5 @@ Thanks to Google, I found exactly what I needed to change. A bit cumbersome at f
 <figure class="half">
 	<img src="{{ site.url }}/uploads/2013/11/PuTTY-Color-Before.png"></a>
 	<img src="{{ site.url }}/uploads/2013/11/PuTTY-Color-After.png"></a>
-	<figcaption>In the end, you'll be going from the ugly default theme of colors to a slightly easier-on-the-eyes version.</figcaption>
+	<figcaption>In the end, you'll be going from the ugly default theme of colors to a version much easier-on-the-eyes version.</figcaption>
 </figure>

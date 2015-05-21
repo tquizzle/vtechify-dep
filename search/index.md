@@ -1,12 +1,9 @@
 ---
+
 layout: page
 title: "Search vTechify"
 excerpt: "Looking for something specific? Try searching the site."
-#image:
-#  feature: texture-feature-01.jpg
-#  credit: Texture Lovers
-#  creditlink: http://texturelovers.com
-sitemap: false
+
 ---  
 
 

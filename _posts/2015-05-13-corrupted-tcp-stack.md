@@ -9,6 +9,12 @@ comments: true
 
 Today while troubleshooting an unpingable VM, there was just something not right about it.
 
+<figure>
+	<img src="http://cdn.arstechnica.net/09-29-2010/tcp_ip_stack.png">
+	<figcaption><a href="http://cdn.arstechnica.net/09-29-2010/tcp_ip_stack.png" title="">TCP/IP Stack and OSI reference model - arstechnica</a>.</figcaption>
+</figure>
+
+
 We checked everything we could think of, then double-checked.
 
 - distributed port group is good
@@ -22,7 +28,7 @@ After trying several things (I wont go into what all we tried) we stumbled acros
 
 > First hint was the bad registry reading from HKLM\Software\Microsoft\IPSec....
 >
-> That possibly tells me that the IPSec in Windows 2003 server seem to be an issue that I'm dealing with...to ensure that this is the case, i launched the Registry Editing tool and notice that the keys under HKLM\Software\Microsoft\IPSec was not readable. By default, if IPSec is not turn on from the Windows FW, you should be able to view the hive of it with no value.
+> That possibly tells me that the IPSec in Windows 2003 server seem to be an issue that I'm dealing with...to ensure that this is the case, I launched the Registry Editing tool and notice that the keys under HKLM\Software\Microsoft\IPSec was not readable. By default, if IPSec is not turn on from the Windows FW, you should be able to view the hive of it with no value.
 
 IPSec? Yes, it got jacked - polstore.dll somehow was corrupted.
 

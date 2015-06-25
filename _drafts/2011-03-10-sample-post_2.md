@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Sample Post
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-tags: [intro, beginner, jekyll, tutorial]
+title: "Post Title"
+excerpt: "Excerpt"
+tags: [tags]
 comments: true
 image:
   feature: vSphere6.0.jpg

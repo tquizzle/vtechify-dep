@@ -26,8 +26,9 @@ I found the solution over at the [VMware KB site](http://kb.vmware.com/selfservi
 
 - In the `vpxd` logs on the vCSA you see entries similar to:
 
+~~~ bash
 
-> <YYYY-MM-DD>T<TIME>+02:00 [7F1C10CCC700 error 'GSSAPI' opID=CEAEA705-00000004-2d] Cannot get user info for XXXX\YYYY. Possible NSS configuration problem.
+<YYYY-MM-DD>T<TIME>+02:00 [7F1C10CCC700 error 'GSSAPI' opID=CEAEA705-00000004-2d] Cannot get user info for XXXX\YYYY. Possible NSS configuration problem.
 <YYYY-MM-DD>T<TIME>+02:00 [7F1C10CCC700 info 'commonvpxLro' opID=CEAEA705-00000004-2d] [VpxLRO] -- FINISH task-internal-9727699 -- -- vim.SessionManager.loginBySSPI
 <YYYY-MM-DD>T<TIME>+02:00 [7F1C10CCC700 info 'Default' opID=CEAEA705-00000004-2d] [VpxLRO] -- ERROR task-internal-9727699 vim.SessionManager.loginBySSPI: vmodl.fault.SystemError:
 Result:
@@ -39,6 +40,7 @@ msg = "",
 }
 Args:
 
+~~~
 
 
 ### Resolution

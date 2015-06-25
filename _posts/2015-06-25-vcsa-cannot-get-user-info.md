@@ -22,7 +22,7 @@ I found the solution over at the [VMware KB site](http://kb.vmware.com/selfservi
 - Logging in to vCenter Server Appliance (VCSA) using the Use Windows session credentials option fails
 - You see the error:
 
-> A General System error occurred: Cannot get user info
+    A General System error occurred: Cannot get user info
 
 - In the `vpxd` logs on the vCSA you see entries similar to:
 
@@ -58,8 +58,9 @@ To resolve this issue:
   - `vi /etc/nsswitch.conf`  
   - Locate the `passwd: compat ato` entry and replace it with the `passwd: compat ato lsass`.
 
-    Note: Remove lsass from the line if it is currently displayed.
-    Restart the services using /etc/init.d/vmware-vpxd restart.
+
+Note: Remove lsass from the line if it is currently displayed.
+Restart the services using /etc/init.d/vmware-vpxd restart.
 {: .notice}
 
 - Restart vpxd by running this command: `/etc/init.d/vmware-vpxd restart`

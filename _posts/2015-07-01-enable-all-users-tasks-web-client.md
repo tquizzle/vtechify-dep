@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enable the "All Users' Tasks option in the vSphere Web Client"
+title: "Enable the All Users' Tasks option in the vSphere Web Client"
 excerpt: "The vCSA 6.0 doesnt allow you to view All Users' Tasks by default. Let's fix that."
 tags: [vCSA, tasks, all users, web client]
 comments: true

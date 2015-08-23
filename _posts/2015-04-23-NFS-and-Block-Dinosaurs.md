@@ -16,6 +16,6 @@ NFS (datastores) don’t honour all SCSI commands
 NFS is not scalable
 NFS uses significantly more CPU than block storage
 NFS does not support <insert your favourite technology here>
-People making these statements are known as “Block Dinosaurs”
+People making these statements are known as **“Block Dinosaurs”**
 
 Read more from Josh [here](http://www.joshodgers.com/2015/04/23/nfs-storage-and-the-block-dinosaur/).

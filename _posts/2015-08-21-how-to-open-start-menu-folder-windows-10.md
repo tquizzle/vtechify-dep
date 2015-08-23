@@ -17,15 +17,18 @@ Here's how to find "your" or a "specific" user's start menu folder
 
 ![Windows 10 - Specific Users Start Menu Folder][1]
 
-{% raw %} 
-%appdata%\Microsoft\Windows\Start Menu
-{% endraw %}
+{% highlight bash %} 
+%AppData%\Microsoft\Windows\Start Menu
+{% endhighlight %}
+
+And then what about the "All User's" Start Menu Folder?
+
 
 ![Windows 10 - All Users Start Menu Folder][2]
 
-{% raw %} 
-C:\ProgramData\Microsoft\Windows\Start Menu
-{% endraw %}
+{% highlight bash %} 
+%ProgramData%\Microsoft\Windows\Start Menu
+{% endhighlight %}
 
 [1]: //vtechify.com/uploads/2015/08/SpecificUsersStartMenu.jpg
 [2]: //vtechify.com/uploads/2015/08/AllUsersStartMenu.jpg

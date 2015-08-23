@@ -14,14 +14,18 @@ Silly Microsoft. Don't make the adoption of your newly OS so difficult to naviga
 
 Here's how to find "your" or a "specific" user's start menu folder
 
-{% raw %} 
 
 ![Windows 10 - Specific Users Start Menu Folder][1]
 
+{% raw %} 
+%appdata%\Microsoft\Windows\Start Menu
+{% endraw %}
 
 ![Windows 10 - All Users Start Menu Folder][2]
 
-
+{% raw %} 
+C:\ProgramData\Microsoft\Windows\Start Menu
+{% endraw %}
 
 [1]: //vtechify.com/uploads/2015/08/SpecificUsersStartMenu.jpg
 [2]: //vtechify.com/uploads/2015/08/AllUsersStartMenu.jpg

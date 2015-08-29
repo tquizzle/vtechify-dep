@@ -4,6 +4,8 @@ title: "How to Open the Start Menu Folder in Windows 10"
 excerpt: "Microsoft made it harder than ever to find this. We used to just right-click a folder..."
 tags: [Microsoft, Windows10, updates, explorer, folder, start menu]
 comments: true
+image:
+  feature: Windows.jpg
 
 ---
 

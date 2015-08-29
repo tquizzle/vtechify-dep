@@ -5,6 +5,8 @@ excerpt: "If you've ever needed or tried to move the C:&#92;Users directory or o
 modified: 2013-05-31
 tags: [folders, geeky, tutorial, hard links, symlinks, system, Windows 7, windows administration]
 comments: true
+image:
+  feature: Windows.jpg
 
 ---
 <section id="table-of-contents" class="toc">

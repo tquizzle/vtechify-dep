@@ -4,6 +4,8 @@ title: The Unfortunate Corrupted TCP Stack
 excerpt: "No connection, not pingable, ICMP traffic drops...bad TCP stack on a VM."
 tags: [tcp, corrupted, winsock, ipsec]
 comments: true
+image:
+  feature: Windows.jpg
 
 ---
 

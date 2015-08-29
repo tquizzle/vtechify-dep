@@ -4,6 +4,8 @@ title: "Doing away with 'Patch Tuesday'"
 excerpt: "Microsoft is doing away with Patch Tuesday opting for a better security update schedule."
 tags: [Microsoft, security, updates, patching]
 comments: true
+image:
+  feature: Windows.jpg
 
 ---
 

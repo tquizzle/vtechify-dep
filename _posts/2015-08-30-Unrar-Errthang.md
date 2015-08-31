@@ -16,5 +16,7 @@ Every once-in-a-while there is a time when I need to so some mass unraring. I mi
 I wanted something to take care of all of them regardless of the style they were compressed.
 
 So I came up with this. I think this will work.
+
+**Adjust your "-maxdepth" as necessary.**
 <br clear="right" />
 <script src="https://gist.github.com/tquizzle/ef82a7e9f4e008fc35c8.js"></script>

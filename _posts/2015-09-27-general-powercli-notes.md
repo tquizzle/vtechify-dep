@@ -333,8 +333,9 @@ Get-View -ViewType VirtualMachine -Property Name, Summary.QuickStats.UptimeSecon
 ## Reading Values for Properties from CSV file ##
 
 This little snippet will set the memory reservations for a VM from a csv file. This is useful if you want to rollback a change and you remembered to make a [[powerclicsvvminfo|csv file with VM information]]. You can use the list to make a separate vms.txt file as input as well as a vmsinput.txt file with reservation settings:
-\\
+
 vms.txt:
+
 {% raw %}
 WINXP-TESTVM2
 WINXP-TESTVM3
@@ -342,6 +343,7 @@ WINXP-TESTVM4
 {% endraw %}
 
 vmsinput.txt:
+
 {% raw %}
 VMName,MEMReservation
 WINXP-TESTVM2,128
@@ -366,7 +368,7 @@ foreach($item in $list){
         
 {% endhighlight %}
 
-= Combining PowerCLI and Powershell =
+# Combining PowerCLI and Powershell #
 
 This snippet queries the windows host machine for the uptime. 
 {% highlight powershell %}
@@ -382,12 +384,9 @@ foreach ($vm in $vms) {
 }
 {% endhighlight %}
 
-= Resources =
-http://ict-freak.nl/2009/12/18/powercli-find-resourcepool-or-vms-with-memory-ballooningswap-usage/ \\
-http://philthevirtualizer.com/category/vmware/powercli/ \\
+# Resources #
+- http://ict-freak.nl/2009/12/18/powercli-find-resourcepool-or-vms-with-memory-ballooningswap-usage/
+- http://philthevirtualizer.com/category/vmware/powercli/
 
-
-
-
-
-I appreciate all the hard work done by [GetShifting](http://www.getshifting.com/wiki/powerclinotes) {: .notice}
+I appreciate all the hard work done by [GetShifting](http://www.getshifting.com/wiki/powerclinotes)
+{: .notice}

@@ -21,9 +21,10 @@ Thanks to William Lam, this is well documented.
 > - Login to your VCSA 6.x appliance via SSH to the appliancesh interface. If you have disabled that, simply type "appliancesh" and login with the root credentials.
 > - Run the following command to stage and install the patches from the VCSA 6.0 Update 1 Patch ISO:
 > {% highlight powershell %}
-> software-packages install --iso --acceptEulas
-> {% endhighlight %}
+software-packages install --iso --acceptEulas
+{% endhighlight %}
 > ![](http://www.virtuallyghetto.com/wp-content/uploads/2015/09/upgrade-from-vcsa-6.0-to-vcsa-6.0-update-1-1.png)
+
 > If you run into any errors while either staging or installing the patches, you should drop into the bash shell and take a look at **/var/log/vmware/applmgmt/software-packages.log** file for additional information. One common issue that I have seen in the past is if your /storage/log partition is full and you may need to perform a clean up before continuing.
 {: .notice}
 

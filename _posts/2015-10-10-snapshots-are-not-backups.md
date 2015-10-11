@@ -2,7 +2,7 @@
 layout: post
 title: "Snapshots are NOT Backups"
 excerpt: "Snapshots are NOT backups. If you think they are, you're doing it wrong."
-tags: [tags]
+tags: [vDP, vSphere, Backup]
 comments: true
 image:
   feature: vSphere6.0.jpg

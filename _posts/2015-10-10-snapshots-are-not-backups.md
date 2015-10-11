@@ -12,6 +12,10 @@ image:
 
 I really like this post over at [digitalkungfu](https://digitalkungfu.wordpress.com/2015/10/03/snapshots-are-not-backups-or-vdp-and-you/). He outlines why snapshots should never be considered a backup.
 
+Because of the ease of vDP from VMware with almost all licensing tiers, if you don't have a great solution for image and application level backups, this is a perfect product for you.
+
+I've recently deployed one of these appliances at each of my production remote sites. Works like a charm.
+
 > Working in production environments the constant challenge of maintaining uptime aka ‘steady-state’ but at the same slowly or as quick as feasible move forward with changing demands of the business.
 > 
 > Change can came in many forms. It is a driver for your organization.
@@ -66,7 +70,5 @@ I really like this post over at [digitalkungfu](https://digitalkungfu.wordpress.
 > - Application aware backups. Backup agents for Microsoft SQL Server, Exchange, and SharePoint. The agents enable application consistent backup and recovery of these applications on virtual and physical machines
 > 
 > See more at: http://www.vmware.com/products/vsphere/features/data-protection.html
-{: .notice}
-
 
 You can also see vDP from VMware's <a href="http://docs.hol.vmware.com/HOL-2012/HOL-PRT-02_EN/HOL-PRT-02-m4/lessons/VMware_VDP_Demo.html" class="btn btn-info">Hands On Labs</a>

@@ -12,11 +12,11 @@ image:
 It's a given, but spending time studying for an technical exam is part of the geek's life. It's tedious but necessary if you wish to continue to hone your craft and prove you have what it takes to be a great system engineeer.
 
 Vladan Seget put together a great resource over at [his site](http://www.vladan.fr/vcp6-dcv/).
+Below is a table of the objectives that he's put tons of time into.
 
-## VCP6-DCV Study Guide 
 
-| Objective | Title |
-|:----------|:------|
+| Objective |   | Title |
+|:----------|---|:------|
 | Objective 1.1 | [Configure and Administer Role-based Access Control](http://www.vladan.fr/vcp6-dcv-objective-1-1-configure-and-administer-role-based-access-control/) |
 | Objective 1.2 | [Secure ESXi, vCenter Server, and vSphere Virtual Machines](http://www.vladan.fr/vcp6-dcv-objective-1-2-secure-esxi-vcenter-server-and-vsphere-virtual-machines/) |
 | Objective 1.3 | [Enable SSO and Active Directory Integration](http://www.vladan.fr/vcp6-dcv-objective-1-3-enable-sso-and-active-directory-integration) |

@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Travis Quinnelly
   avatar: https://secure.gravatar.com/avatar/9ff9176cb3c383c60d7d91bf0dce141e?s=128&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D128&r=PG
-  bio: "vTechify is my home to talk about all things server or virtualization. Here I share things learned in lab and production environments both for my documentation and reference and for others to benefit as well."
+  bio: "vTechify is my home to talk about all things virtualization. Here I share things learned in lab and production environments both for my documentation and others to stumble upon for reference."
   email: 
   disqus-shortname: vtechifycom
   twitter: TQuizzle

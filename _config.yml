@@ -2,7 +2,7 @@
 
 title:            vTechify.com
 locale:           en_US
-url:              //vtechify.com
+url:              http://vtechify.com
 
 
 # Jekyll configuration
@@ -29,17 +29,17 @@ owner:
   name: Travis Quinnelly
   avatar: https://secure.gravatar.com/avatar/9ff9176cb3c383c60d7d91bf0dce141e?s=128&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D128&r=PG
   bio: "vTechify is my home to talk about all things virtualization. Here I share things learned in lab and production environments both for my documentation and others to stumble upon for reference."
-  email: 
+  email:
   disqus-shortname: vtechifycom
   twitter: TQuizzle
   facebook: #username
   google:
     plus: TravisQuinnelly
     analytics: UA-253329-15
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
   github: tquizzle
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: tquinnelly

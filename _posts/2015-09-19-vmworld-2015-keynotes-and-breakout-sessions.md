@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VMworld 2015 Keynotes & Breakout Sessions"
+title: "VMworld 2015 Keynotes &amp; Breakout Sessions"
 excerpt: "VMware put together a great playlist of the keynotes and some breakout sessions of VMworld 2015."
 tags: [vmware, vmworld, keynote, vcloud, 2015, playlist, session, breakout]
 comments: true

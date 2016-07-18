@@ -22,7 +22,7 @@ Get-AlarmDefinition | Get-AlarmAction -ActionType SendEmail | where-object {$_.T
 {% endhighlight %}
 
 To add other transitions (red to yellow, yellow to green) you can just change the **-StartStatus** and **-EndStatus** to the necessary values.
-{.notice}
+{: .notice}
 
 To see all Alarms configured to send to a certain email address along with triggers:
 {% highlight powershell %}

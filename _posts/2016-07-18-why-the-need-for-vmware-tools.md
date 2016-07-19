@@ -31,7 +31,7 @@ Directly from the [source](https://pubs.vmware.com/vsphere-60/topic/com.vmware.I
 >
 Although the guest operating system can run without VMware Tools, many VMware features are not available until you install VMware Tools. For example, if you do not have VMware Tools installed in your virtual machine, you cannot get heartbeat information from guest operating systems or cannot use the shutdown or restart options from the toolbar. You can only use the power options and you have to shut down your guest operating systems from each virtual machine console. You cannot use VMware Tools for connecting and disconnecting virtual devices, and shrinking virtual disks.
 
-Here's what the VMware Tools Service does:
+## VMware Tools Service
 
 >
 The VMware Tools service starts when the guest operating system starts. The service passes information between host and guest operating systems.
@@ -51,7 +51,7 @@ standard feature.
 * Provides support for guest operating on Windows and Linux created using the VMware VIX API, except in Mac OS X guest operating systems. For information VIX API, see the vSphere API Reference documentation.
 
 >
-VMware Tools Device Drivers
+## VMware Tools Device Drivers
 
 > Device drivers optimize mouse operations and improve sound, graphics, and networking performance. If you do a custom VMware Tools installation or reinstallation, you can choose which drivers to install.
 

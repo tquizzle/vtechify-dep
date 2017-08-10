@@ -16,9 +16,9 @@ Normal Google searches lead you to believe that it's because you configured a st
 
 <blockquote>
 A ‘Not Applicable’ state occurs when a VM Storage Policy with certain capabilities is applied to a virtual machine, but that virtual machine resides on storage which does not understand the capabilities. For instance, if I created a VM Storage Policy using VSAN capabilities like Number of Failures To Tolerate, or Number of Disk Stripes per Object, and then applied that policy to a virtual machine which is residing on a VMFS or NFS datastore, the Compliance Status would become ‘Not Applicable’.
-<br />
-[Cormac Hogan's Amazing Blog](http://cormachogan.com/2014/04/03/vsan-part-22-policy-compliance-status/)
 </blockquote>
+[Cormac Hogan's Amazing Blog](http://cormachogan.com/2014/04/03/vsan-part-22-policy-compliance-status/)
+
 
 However in my case, I was indeed on the vSAN datastore and those policies were compliant yesterday. What happened? Re-applying the policy does not fix it. Nor does switching to a different policy. What to do?
 

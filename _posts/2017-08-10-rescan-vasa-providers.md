@@ -24,13 +24,12 @@ However in my case, I was indeed on the vSAN datastore and those policies were c
 
 ## Rescan your Providers
 
-This is actually a simple fix.
-
+What does it really do?
 ![Storage Providers](/images/vasa-storage-providers-1.png)
 {: .image-pull-right}
 
 Login to vCenter and navigate to Hosts and Clusters. Select your vCenter from the top left and go to "Manage" then "Storage Providers."
-Find the "Active" provider and rescan it. You're looking for the icon that I've zoomed in on. Tooltip says "Sychronizes all Virtual SAN Storage Providers with teh current state of the environment."
+Find the "Active" provider and rescan it. You're looking for the icon that I've zoomed in on below.
 
 ![Storage Providers](/images/vasa-storage-providers-2.png)
 

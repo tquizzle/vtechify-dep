@@ -24,9 +24,10 @@ However in my case, I was indeed on the vSAN datastore and those policies were c
 
 ## Rescan your Providers
 
-What does it really do?
 ![Storage Providers](/images/vasa-storage-providers-1.png)
 {: .image-pull-right}
+What does it really do?
+
 
 Login to vCenter and navigate to Hosts and Clusters. Select your vCenter from the top left and go to "Manage" then "Storage Providers."
 Find the "Active" provider and rescan it. You're looking for the icon that I've zoomed in on below.

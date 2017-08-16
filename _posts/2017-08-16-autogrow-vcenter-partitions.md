@@ -26,5 +26,8 @@ I'll outline what exactly I did to remediate this, please note though, your mila
 4. Run `df -h` to verify the size before any operations are run
 5. Execute the autogrow command
   * `vpxd_servicecfg storage lvm autogrow`
+  * Wait for `VC_CFG_RESULT=0`
 6. Run `df -h` to verify the partition grew
 7. High-five yourself. You did it.
+
+William Lam: [Increasing disk capacity simplified with VCSA 6.0 using LVM autogrow](http://www.virtuallyghetto.com/2015/02/increasing-disk-capacity-simplified-with-vcsa-6-0-using-lvm-autogrow.html)

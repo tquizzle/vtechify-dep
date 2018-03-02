@@ -56,6 +56,6 @@ Set-PowerCLIConfiguration -InvalidCertificateAction Ignore
 
 ### More Info:
 
-Duncan Epping - http://www.yellow-bricks.com/2018/03/01/powercli-for-osx-is-out/
-Michael White - https://notesfrommwhite.net/2018/02/28/installing-powershell-powercli-on-a-mac/
-Kyle Ruddy - https://blogs.vmware.com/PowerCLI/2018/02/powercli-10.html
+* Duncan Epping - http://www.yellow-bricks.com/2018/03/01/powercli-for-osx-is-out/
+* Michael White - https://notesfrommwhite.net/2018/02/28/installing-powershell-powercli-on-a-mac/
+* Kyle Ruddy - https://blogs.vmware.com/PowerCLI/2018/02/powercli-10.html

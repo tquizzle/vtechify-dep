@@ -13,13 +13,13 @@ A few days ago an issue arose that caused me to not be able to vMotion to and fr
 
 After poking around, I found that the /var/spool/snmp directory had thousands, upon thousands of files in it. SNMPd was running and the host had all the valid settings necessary for it to be able to send traps to the SNMP server, yet it was queueing them up in this directory.
 
-Deleting them solved the issue, but only temorarily…
+Deleting them solved the issue, but only temporarily…
 
 I then found [KB 2040707](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2040707) which explains that this issue is a known issue affecting ESXi 5.1.
 
 Here's the work around:
 
-1. Find out if your drectory is full of .trp files
+1. Find out if your directory is full of .trp files
 {% highlight powershell %}
 ls /var/spool/snmp | wc -l
 {% endhighlight %}

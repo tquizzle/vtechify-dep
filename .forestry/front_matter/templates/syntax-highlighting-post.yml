@@ -1,6 +1,4 @@
 ---
-pages:
-- _posts/ewr.md
 hide_body: false
 fields:
 - name: layout
@@ -38,6 +36,6 @@ fields:
   type: datetime
   hidden: false
   default: ''
-- type: textarea
-  label: body
-  name: body
+- type: file
+  name: post-image
+  label: post-image

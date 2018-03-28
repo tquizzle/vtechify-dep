@@ -16,6 +16,11 @@ fields:
   type: textarea
   hidden: false
   default: Default Excerpt
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: Invalid date
 - name: modified
   label: Modified
   type: datetime
@@ -29,11 +34,6 @@ fields:
 - name: comments
   label: Comments
   type: boolean
-  hidden: false
-  default: ''
-- name: date
-  label: Date
-  type: datetime
   hidden: false
   default: ''
 - type: file

@@ -5,22 +5,22 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: title
   label: Title
   type: textarea
   hidden: false
-  default: ''
+  default: Default Title
 - name: excerpt
   label: Excerpt
   type: textarea
   hidden: false
-  default: ''
+  default: Default Excerpt
 - name: modified
   label: Modified
   type: datetime
   hidden: false
-  default: ''
+  default: Invalid date
 - name: tags
   label: Tags
   type: tag_list
@@ -36,3 +36,6 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: textarea
+  label: body
+  name: body
